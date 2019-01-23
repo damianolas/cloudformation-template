@@ -1,0 +1,36 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+ 
+    "Parameters": {
+    
+    },
+
+    "Resources": {
+
+    },
+
+    "Metadata": {
+        "AWS::CloudFormation::Interface": {
+            "ParameterGroups": [
+                {
+                    "Label": {
+                        "default": "Example configuration"
+                    },
+                    "Parameters": [
+                        "example",
+                    ]
+                }              
+            ],
+            "ParameterLabels": {
+                "example": {
+                    "default": "example"
+                }
+            }
+        }
+    },
+
+    "Outputs": {
+ 
+    }
+ 
+}
